@@ -47,7 +47,7 @@ const App: React.FC = () => {
             
             {/* Left Side: Features */}
             <div className="w-full lg:w-1/2 p-8 sm:p-12 bg-blue-600 text-white flex flex-col justify-center">
-              <h1 className="text-4xl font-bold mb-4">Join BlueBank Today</h1>
+              <h1 className="text-4xl font-bold mb-4">Join BlueBank Today Pre!</h1>
               <p className="text-lg text-blue-100 mb-8">Experience the future of digital banking. Secure, intuitive, and built for you.</p>
               <div className="space-y-6">
                 {features.map((feature, index) => (
