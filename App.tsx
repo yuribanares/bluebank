@@ -24,17 +24,17 @@ const App: React.FC = () => {
   const features: Feature[] = [
     {
       icon: <TransferIcon />,
-      title: 'Seamless Funds Transfer',
+      title: 'Easy Funds Transfer',
       description: 'Instantly send and receive money with just a few taps. Secure, fast, and reliable transactions at your fingertips.'
     },
     {
       icon: <PaymentIcon />,
-      title: 'Effortless Payments',
+      title: 'Payments Reimagined',
       description: 'Pay your bills, manage subscriptions, and shop online with our integrated payment system. It\'s convenience redefined.'
     },
     {
       icon: <LockIcon />,
-      title: 'Advanced Security',
+      title: 'Security Redefined',
       description: 'Protect your account with multi-factor authentication and easily manage your password and security settings.'
     }
   ];
@@ -46,8 +46,8 @@ const App: React.FC = () => {
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl flex flex-col lg:flex-row overflow-hidden">
             
             {/* Left Side: Features */}
-            <div className="w-full lg:w-1/2 p-8 sm:p-12 bg-blue-600 text-white flex flex-col justify-center">
-              <h1 className="text-4xl font-bold mb-4">Join BlueBank Today Pre!</h1>
+            <div className="w-full lg:w-1/2 p-8 sm:p-12 bg-white-800 text-white flex flex-col justify-center">
+              <h1 className="text-4xl font-bold mb-4">Open a Bluebank Account Today Bruh!</h1>
               <p className="text-lg text-blue-100 mb-8">Experience the future of digital banking. Secure, intuitive, and built for you.</p>
               <div className="space-y-6">
                 {features.map((feature, index) => (
